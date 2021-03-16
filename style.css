@@ -465,13 +465,11 @@ tr{
 .p1{
     font-size: 30px;
     margin-top: 10px;
-    color: white;
-    background-color:#251637 ;
+    color: black;
 }
 .p2{
     font-size: 15px;
-    color: white;
-    background-color:#251637
+    color: black;
 }
 .rekordy{
     display: flex;
