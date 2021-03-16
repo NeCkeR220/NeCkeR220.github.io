@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("akshay-chauhan-qBUU6wsgK6A-unsplash.jpg");
+    background-position: center;
+    background-color: #e8e8e8;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'DM Sans',sans-serif;
+    color: #222;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: #251637;
+    color: #eee;
+}
+
+.left_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo{
+    width: 40px;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+    transition: .2s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #D00027;
+}
+
+.menu a{
+    padding: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+table{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+th h1{
+    color: #eee;
+}
+
+.profile img{
+    width: 120px;
+    height: 120px;
+    padding-bottom: 10px;
+    object-fit: cover;
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 2px;
+    align-items: center;
+    justify-content: center;
+    background-color: #251637;
+    color: #eee;
+    text-align: center;
+}
+
+tr{
+    display: flex;
+    justify-content: center;
+}
+
+#capitan{
+    width: 20px;
+    height: 20px;
+}
+
+.capitan{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#back_arrow{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.player_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 35px;
+    font-size: 25px;
+    justify-content: center;
+    background-color: #eee;
+    width: fit-content;
+    padding: 20px 20px 0 0;
+    margin: 0 3%;
+}
+
+.player_profile img{
+    width: 500px;
+    height: 500px;
+}
+
+
+.opis_legend{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    padding: 0 40px;
+}
+
+.opis_legend h1{
+    padding: 10px 0;
+}
+
+.opis_legend ul li{
+    padding: 10px 0;
+}
+
+.opis_legend p{
+    padding: 10px 0;
+}
+
+#opis_pierwszy{
+    margin-top: 0px;
+    border: none;
+}
+
+.opis_jeden{
+    display: flex;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: solid 2px #251637;
+}
+
+.img_legend{
+    width: 50%;
+    align-self: center;
+}
+
+.img_legend img{
+    height: 350px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.opis_dwa{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: solid 2px #251637;
+}
+
+.klub_odnosnik img{
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.klub_odnosnik{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #251637;
+    align-items: center;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 3%;
+}
+
+.klub{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.content_single_klub_all{
+    margin: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_single_klub_all img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    padding: 35px 0;
+}
+
+.content_single_klub_all p{
+    width: 75%;
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 22px;
+}
+
+.content_single_klub_all ul li{
+    list-style-type: square;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.content_single_klub_all ul{
+    width: 75%;
+    padding-top: 10px;
+}
+
+.content_single_klub_all h2{
+    width: 75%;
+    text-align: start;
+}
+
+.content_single_klub_all a{
+    color: #222;
+}
+
+.content_single_klub_all a:hover{
+    color: #D00027;
+}
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.kadra{
+    width: 100%;
+    align-items: center;
+    text-align: center; 
+}
+.kadra h2{
+    text-decoration: none;
+    color: #251637;
+    transition: .2s ease-in-out; 
+    margin-top: 80px;
+    font-size: 30px;
+}
+.kadra h2:hover{
+    text-decoration: none;
+    color: #c59c15;
+}
+.kadra img{
+    margin: 20px 20px;
+    width: 80%;
+    height: 350px;
+    border-width: 5px;
+    border-style:groove;
+    border-color:#251637;
+}
+.trofea{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.trofea img{
+    margin: 20px 20px;
+    width: 40%;
+    height: 300px;
+    border-width: 5px;
+    border-style:groove;
+    border-color:#251637;
+}
+.trofea h2{
+    margin-top: 120px;
+    font-size: 30px;
+    color: #251637;
+    transition: .2s ease-in-out;
+    text-decoration: none; 
+}
+.trofea h2:hover{
+    text-decoration: none;
+    color: #c59c15;
+}
+.sklad{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+}
+.sklad img{
+    margin: 20px 20px;
+    width: 80%;
+    height: 500px;
+    border-width: 5px;
+    border-style:groove;
+    border-color:#251637;
+}
+.sklad h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #251637;
+}
+.tabela_sklep{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sklep_lewy{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.sklep_lewy img{
+    margin: 20px 0;
+    border-width: 5px;
+    border-style:groove;
+    border-color:#251637; 
+    width: 100%;
+    height: 200px;
+}
+.sklep_lewy h2{
+    text-decoration: none;
+    color: #251637;
+    transition: .2s ease-in-out;
+}
+.sklep_lewy h2:hover{
+    text-decoration: none;
+    color: #c59c15;
+}
+.sklep_prawy{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 120px;
+}
+.sklep_prawy img{
+    margin: 20px 20px;
+    border-width: 5px;
+    border-style:groove;
+    border-color:#251637;
+}
+.sklep_prawy h2{
+    text-decoration: none;
+    color: #251637;
+    transition: .2s ease-in-out;
+}
+.sklep_prawy h2:hover{
+    text-decoration: none;
+    color: #c59c15;
+}
+.tabela{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    text-align: center;
+}  
+.tabela img{
+    margin: 20px 20px;
+    border-width: 5px;
+    border-style:groove;
+    border-color:#251637;
+}
+.tabela h2{
+    text-decoration: none;
+    color: #251637;
+    transition: .2s ease-in-out;
+}
+.tabela h2:hover{
+    text-decoration: none;
+    color: #c59c15;
+}
+#footer {
+    background-color:#251637;
+    color:white;
+    clear: both;
+    text-align:center;
+   padding:5px;	 
+   position: relative ;
+   height: 150px;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  display: flex; 
+}
+#footer img{
+    width: 40%;
+    height: 90px;
+}
+#footer a{
+    margin: 20px 10px;
+    width: 15%;
+}
+.ikonki{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.puchary{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.puchary img{
+    width: 60%;
+    height: 150px;
+    margin: 20px 70px;
+}
+.podpis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.p1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+    background-color:#251637 ;
+}
+.p2{
+    font-size: 15px;
+    color: white;
+    background-color:#251637
+}
+.rekordy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rekordy h2{
+    font-size: 40px;
+    margin-top: 20px;
+    color:#251637 ;
+}
+.rekordy ul{
+    margin-top: 10px;
+}
+.rekordy li{
+    line-height: 40px;
+    font-size: 20px;
+}
